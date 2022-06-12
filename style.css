@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Poppins:wght@300&family=Ubuntu:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  
+
+}
+h1{
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+    
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5f7e9, #f7f3e8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, f5f7e9, #f7f3e8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    
+    background-color: rgb(252, 252, 239)
+}
+.container{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 2rem;
+    padding: 1.5rem;
+    font-size: larger;
+    
+    
+
+
+}
+
+
+.my_btn{
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 10%;
+
+}
+.my_btn:hover{
+    color:#f5f7e9;
+    background-color: black;
+}
+.text{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: larger;
+}
