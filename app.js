@@ -45,6 +45,8 @@ function calculateBMI () {
     else if ( result > 25){
         document.querySelector(".text").innerHTML =" You are Overweight!"
 
+    } else if (isNaN = result){
+        document.querySelector(".text").innerHTML ="Please provide the necessary information!"
     }
     
     else{
